@@ -17,7 +17,7 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (44.0f));
-    g.setColour (juce::Colours::red);
+    g.setColour (juce::Colours::white);
     g.drawText ("Hello Harrison Moses", getLocalBounds(), juce::Justification::centred, true);
 }
 
